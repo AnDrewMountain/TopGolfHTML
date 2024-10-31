@@ -1,20 +1,42 @@
-body{
-    font-family: Ariel, sans-serif;
+body {
+    font-family: Arial, sans-serif;
     margin: 20px;
+    text-align: center; /* Center all text in the body */
 }
-header {
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.golf-club-section {
+    max-width: 600px; /* Limit width of the section */
+    margin: auto;     /* Center section within the page */
     text-align: center;
 }
 
-img {
-    width: 200px; 
-    height: auto;
+.column {
+    margin-bottom: 20px;
 }
 
-.golf-club-section {    
-    margin-top: 20px;
+.column img {
+    width: 100%;     /* Set image to full width of the column */
+    max-width: 200px; /* Max width to avoid oversizing */
+    height: auto;
+    margin: 0 auto;   /* Center image */
+    display: block;
 }
-.column {
-    width: 45%;
-    margin-bottom: 20px;
- }
+
+.column h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.column ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.column li {
+    margin: 5px 0;  
+}
